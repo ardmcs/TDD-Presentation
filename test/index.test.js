@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const { multiply, divide } = require('../index');
+const { multiply, divide } = require('../app');
 
 describe('Test Example 1', function() {
   describe('multiply', function() {

@@ -215,7 +215,7 @@ So the cycle repeats itself again.
 ```javascript
 function divide(a, b) {
   if (a === 0 || b === 0) {
-    throw new Error('Input not be zero');
+    throw new Error('Number must be greater than 0');
   }
 
   return a / b;
