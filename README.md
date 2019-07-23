@@ -2,7 +2,7 @@
 
 ## Situations
 
-As developers we have encountered several nerve wrecking scenarios like the following:
+As developers, we have encountered several nerve wrecking scenarios like the following:
 
 - Refactored code and broke another function without knowledge
 - Fixed a bug and another bug just magically appears
@@ -11,11 +11,11 @@ As developers we have encountered several nerve wrecking scenarios like the foll
 
 ## Why should we do Test Driven Development
 
-TDD is not just about testing, many developers fear the word "test" as it may sound tedious, time consuming. When the project is in a rush, developers tend to think that everything has to be done ASAP and writing tests would just slow them down. Although TDD may slow down things at start just as adopting any new skills, but as time goes, we as a developer would actually spend less time figuring out why things won't work.
+TDD is not just about testing, many developers fear the word "test" as it may sound tedious, time-consuming. When the project is in a rush, developers tend to think that everything has to be done ASAP and writing tests would just slow them down. Although TDD may slow down things at start just as adopting any new skills, but as time goes, we as a developer would actually spend less time figuring out why things won't work.
 
 ### Benefits
 
-TDD is a kind of technique that is learnt by developers to gain confidence in their code and not really just about the tests. Tests results are given as a useful side-effect, however the real benefit of Test Driven Development is that it promotes your thinking about code and boost your confidence in the knowledge that your code works
+TDD is a kind of technique that is learned by developers to gain confidence in their code and not really just about the tests. Tests results are given as a useful side effect, however the real benefit of Test Driven Development is that it promotes your thinking about code and boost your confidence in the knowledge that your code works.
 
 ## What exactly is Test Driven Development
 
@@ -34,7 +34,7 @@ Summarizing the above in a few rules
 
 ## How to do Test Driven Development
 
-In Javascript testing is done using the _Mocha.js_ framework as well as _Chai.js_ to write assertions in a more readable format
+In JavaScript testing is done using the _Mocha.js_ framework as well as _Chai.js_ to write assertions in a more readable format
 
 ---
 
@@ -70,7 +70,7 @@ cd tests/ && touch index.test.js
 
 Open the `index.test.js` file
 
-For example we are going to write an application to include 2 basic calucation functions
+For this example, we are going to write an application to include 2 basic calculative functions
 
 - Multiply
 - Divide
@@ -84,7 +84,7 @@ const expect = require('chai').expect;
 const { multiply, divide } = require('../app');
 ```
 
-First we have to describe the test that we are going to do, treat this as some sort of a **label**
+First we have to describe the test that we are going to do, treat this as some sort of **label**
 
 In `chai` describe is written using the `describe()` method which takes in 2 arguments, an **optional** string and a callback function
 
